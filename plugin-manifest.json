@@ -1,0 +1,37 @@
+{
+  "api": {
+    "class_name": "ZappSportsMaxTermsGeneral",
+    "modules": [
+      "SportsmaxTermsGeneralPlugin"
+    ],
+    "require_startup_execution": true
+  },
+  "dependency_repository_url": [
+    "git@github.com:applicaster-plugins/SportsmaxTermsGeneralPlugin-iOS.git"
+  ],
+  "platform": "ios",
+  "author_name": "Roei Carmel",
+  "author_email": "roei.carmel@msapps.mobi",
+  "manifest_version": "0.1.0",
+  "name": "Sportsmax Terms and Conditions",
+  "description": "Sportsmax Terms and Conditions",
+  "type": "general",
+  "screen": false,
+  "identifier": "SportsmaxTermsGeneralPlugin",
+  "ui_builder_support": true,
+  "dependency_name": "SportsmaxTermsGeneralPlugin",
+  "dependency_version": "0.1.0",
+  "whitelisted_account_ids": [
+    "5af949534da8f300080050f9"
+  ],
+  "min_zapp_sdk": "12.1.0-Dev",
+  "deprecated_since_zapp_sdk": "",
+  "unsupported_since_zapp_sdk": "",
+  "supported_nav_items": [],
+  "react_native": false,
+  "custom_configuration_fields": [
+  ],
+  "targets": [
+    "mobile"
+  ]
+}
