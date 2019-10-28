@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                = 'SportsmaxTermsAndConditions'
+  s.name                = 'SportsmaxTermsGeneralPlugin'
   s.version             = '0.1.0'
   s.summary             = 'A plugin for SportsMax'
   s.description         = 'A plugin for SportsMax'
