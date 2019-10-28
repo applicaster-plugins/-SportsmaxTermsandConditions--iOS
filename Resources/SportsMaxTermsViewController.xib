@@ -8,7 +8,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SportsMaxTermsViewController" customModule="SportsmaxTermsAndConditions" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SportsMaxTermsViewController" customModule="SportsmaxTermsGeneralPlugin" customModuleProvider="target">
+            <connections>
+                <outlet property="view" destination="iN0-l3-epB" id="l9f-EY-2yu"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
@@ -22,7 +26,7 @@
                     </constraints>
                     <state key="normal" image="x.png"/>
                     <connections>
-                        <action selector="closeBtnDidPress:" destination="-1" eventType="touchUpInside" id="fsf-dv-TDc"/>
+                        <action selector="closeBtnDidPress:" destination="-1" eventType="touchUpInside" id="DGJ-vn-4Op"/>
                     </connections>
                 </button>
             </subviews>

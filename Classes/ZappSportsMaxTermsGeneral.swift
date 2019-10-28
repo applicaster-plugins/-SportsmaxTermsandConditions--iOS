@@ -46,7 +46,5 @@ import ApplicasterSDK
                 self.showTermsScreen()
             }
         }
-        self.showTermsScreen()
     }
-    
 }
